@@ -10,10 +10,9 @@ public class Homework1 {
     }
 
     public static int minNum(int arr[]){
-        int i;
         int min = arr[0];
 
-        for (i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++)
             if (arr[i] < min)
                 min = arr[i];
 
@@ -21,10 +20,9 @@ public class Homework1 {
     }
 
     public static int maxNum(int arr[]){
-        int i;
         int max = arr[0];
 
-        for (i = 0; i < arr.length; i++)
+        for (int i = 0; i < arr.length; i++)
             if (arr[i] > max)
                 max = arr[i];
 
