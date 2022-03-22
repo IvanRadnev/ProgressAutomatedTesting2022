@@ -8,7 +8,8 @@ public class Cat extends Animal{
         setAge(age);
     }
 
-    public String makeSound(){
+    @Override
+    public String makeSound() {
         return "Meow";
     }
 }

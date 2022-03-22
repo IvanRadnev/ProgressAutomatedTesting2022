@@ -31,4 +31,8 @@ public class Animal {
             this.age = age;
         }
     }
+
+    public String makeSound(){
+        return "Make sound";
+    }
 }

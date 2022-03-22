@@ -8,7 +8,9 @@ public class Dog extends Animal{
         setAge(age);
     }
 
-    public String makeSound(){
+
+    @Override
+    public String makeSound() {
         return "Bark";
     }
 }
