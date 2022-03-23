@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Homework3 {
     public static void main(String[] args) {
 
-        System.out.println(threeElements());
+        System.out.println("The entered elements are: " + threeElements());
     }
 
     public static String threeElements(){
