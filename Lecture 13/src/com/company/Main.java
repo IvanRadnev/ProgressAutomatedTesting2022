@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Enter a number: ");
         int inputNumber = sc.nextInt();
 
-//asdasdsa
+//test
 
     }
 }
